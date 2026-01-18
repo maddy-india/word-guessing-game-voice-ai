@@ -1,0 +1,7 @@
+{
+  "claudeCode.preferredLocation": "sidebar",
+  "claude-code.autoApprove.enabled": true,
+  "claude-code.autoApprove.bash": true,
+  "claude-code.autoApprove.fileOperations": true,
+  "claude-code.autoApprove.browserActions": false
+}

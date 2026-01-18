@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm create:*)",
+      "Bash(export PATH=\"$HOME/.nvm/versions/node/*/bin:$HOME/.bun/bin:/opt/homebrew/bin:/usr/local/bin:$PATH\")",
+      "Bash(echo:*)",
+      "Bash(export VOLTA_HOME=\"$HOME/.volta\")",
+      "Bash(export PATH=\"$VOLTA_HOME/bin:$PATH\")",
+      "Bash(volta which:*)",
+      "Bash(curl:*)",
+      "Bash(bash)",
+      "Bash(VOLTA_HOME=\"$HOME/.volta\" PATH=\"$VOLTA_HOME/bin:$PATH\")",
+      "Bash(npm install:*)"
+    ]
+  }
+}
