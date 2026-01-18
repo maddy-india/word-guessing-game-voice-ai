@@ -52,9 +52,12 @@ export function GameSetup() {
     <div className="flex-1 flex items-center justify-center p-4 pb-32">
       <Card className="w-full max-w-lg animate-bounce-in">
         {/* Title */}
-        <h1 className="text-3xl md:text-4xl font-peppa text-center text-peppa-pink mb-8">
+        <h1 className="text-3xl md:text-4xl font-peppa text-center text-peppa-pink mb-2">
           Word Chain Game
         </h1>
+        <p className="text-center text-sm text-gray-500 font-body mb-8">
+          Made by Athena with <span className="text-error-red">&#10084;</span>
+        </p>
 
         {/* Player inputs */}
         <div className="space-y-6 mb-6">
